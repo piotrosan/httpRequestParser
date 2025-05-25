@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(httpRequestParser main.cpp
         parser/parser.h
-        parser/request.h)
+        parser/request.h
+        test.cpp)

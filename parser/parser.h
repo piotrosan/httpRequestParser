@@ -49,6 +49,7 @@ namespace ParserContainer {
                     request->setHost(host);
                 }
             }
+
         public:
             void buildRequest() {
                 setHttpMethod();
